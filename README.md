@@ -42,7 +42,7 @@ yt-kb/
 
 ## База знаний (`knowledge/`)
 
-- **architecture.md** — архитектурные принципы RedCat
+- **architecture.md** — архитектурные принципы компании
 - **api-standards.md** — стандарты REST API, форматы, коды, валидация
 - **data-models.md** — описание моделей данных и связей
 - **platform-guidelines.md** — гайдлайны по платформе, стек, DevOps
@@ -107,7 +107,7 @@ python3 cli.py new-bft "Название документа"
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://gitlab.rct24.ru/red-cat/yt-kb.git
+   git clone # укажите ссылку на репозиторий
    cd yt-kb
    ```
 2. Установите зависимости:
@@ -117,7 +117,7 @@ python3 cli.py new-bft "Название документа"
 3. Создайте `.env` с переменными:
    ```env
    YT_TOKEN=ваш_токен
-   YT_BASE_URL=https://youtrack.rct24.ru
+   YT_BASE_URL="сслыка на youtrack"
    PROJECT_ID=0-2
    PARENT_ID=146-106
    ```

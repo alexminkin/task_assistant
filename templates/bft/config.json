@@ -1,0 +1,10 @@
+{
+  "template": "bft",
+  "version": "1.0",
+  "fields": {
+    "name": "",
+  "summary": "",
+    "article_id": null,
+    "parent_id": "146-106"
+  }
+}
